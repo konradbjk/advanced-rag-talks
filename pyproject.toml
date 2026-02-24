@@ -1,0 +1,21 @@
+[project]
+name = "advanced-rag-talks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "langchain>=1.2.10",
+    "langchain-classic>=1.0.1",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.14",
+    "langchain-openai>=0.3.0",
+    "langchain-qdrant>=1.1.0",
+    "psycopg2-binary>=2.9.9",
+    "python-frontmatter>=1.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+]
